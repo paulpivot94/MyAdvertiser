@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Accueil
+        </ion-title>
+        <ion-buttons slot="end" *ngIf="!connected">
+            <ion-button color="danger" (click)="logout()">
+                <ion-icon slot="icon-only" name="log-out"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content ion-padding>
+
+    <ion-button shape="round" (click)="facebookLogin()">
+        <ion-icon slot="start" name="logo-facebook"></ion-icon>
+        Connexion avec Facebook
+    </ion-button>
+    <ion-buttons slot="end" *ngIf="connected">
+    </ion-buttons>
+    
+    <ion-item routerLink="/login">
+        <ion-label color="dark" text-center>Ou connectez-vous avec</ion-label>
+    </ion-item>
+
+</ion-content> 

@@ -1,0 +1,7 @@
+{
+  "name": "MyAdvertiser",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

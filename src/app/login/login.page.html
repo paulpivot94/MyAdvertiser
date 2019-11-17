@@ -1,0 +1,67 @@
+<ion-content padding class="background">
+    <!--<img src="assets/images/bg-img.png" alt="LOGO">-->
+    <div class="logo">
+        <ion-icon color="light" name="contact"></ion-icon>
+    </div>
+    
+    <!-- <ion-card>
+        <ion-card-header>
+            LOGIN
+        </ion-card-header>
+        <ion-card-content>
+            <ion-list no-lines>
+                <ion-item>
+                    <ion-label floating>Username</ion-label>
+                    <ion-input type="text"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label floating>Password</ion-label>
+                    <ion-input type="password"></ion-input>
+                </ion-item>
+            </ion-list>
+
+        </ion-card-content>
+    </ion-card> 
+    <input type="text" placeholder="Login">
+    <input type="password" placeholder="Password">
+
+    <button color="roze" ion-button class="login">LOGIN</button>-->
+
+    <ion-item>
+        <ion-label color="dark" position="floating">Username</ion-label>
+        <ion-input color="dark" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label color="dark" position="floating">Password</ion-label>
+        <ion-input color="dark" type="password"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+        <ion-button color="dark" slot="end" fill="clear">
+            Mot de passe oublie ?
+        </ion-button>
+    </ion-item>
+
+    <ion-button color="" fill="outline" expand="block" shape="round" routerLink="/tabs">
+        Connexion
+    </ion-button>
+    
+    <ion-button color="tertiary" expand="block" shape="round">
+        Inscription
+    </ion-button>
+
+    <ion-item>
+        <ion-label color="dark" text-center>Ou connectez-vous avec</ion-label>
+    </ion-item>
+
+    <div class="flex">
+        <ion-button color="facebook" shape="round">
+            <ion-icon slot="start" name="logo-facebook"></ion-icon>
+            Facebook
+        </ion-button>
+        <ion-button color="google" shape="round">
+            <ion-icon slot="start" name="logo-google"></ion-icon>
+            Google
+        </ion-button>
+    </div>
+
+</ion-content>

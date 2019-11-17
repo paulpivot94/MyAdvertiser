@@ -1,0 +1,34 @@
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/* CSS pour la page de login */
+#bg-img {
+    --background: url(assets/images/bg-img.jpg) no-repeat center/cover fixed;
+}
+
+
+/* CSS pour la page d'accueil tab1 */
+
+
+/* CSS pour la page la page tabs */
+ion-tabs {
+    &.url-login-tournaments-main-p,
+    &.url-login-tournaments-main-play-score {
+        ion-tab-bar {
+            display: none;
+        }
+    }
+}
