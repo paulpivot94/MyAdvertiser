@@ -16,14 +16,8 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { TabsPageModule } from './tabs/tabs.module';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyC1OW2G66N8gGKlDaNXOr870lwIWnL_3V4',
-  authDomain: 'myadvertiser-fe884.firebaseapp.com',
-  databaseURL: 'https://myadvertiser-fe884.firebaseio.com',
-  projectId: 'myadvertiser-fe884',
-  storageBucket: 'myadvertiser-fe884.appspot.com',
-  messagingSenderId: '475692888997',
-  appId: '1:475692888997:web:20a1cae951e00226872e4c',
-  //measurementId: "G-C57B232N7S"
+  /* ici vous renseigner les paramtres d'API gOOGLE */
+  
 };
 
 @NgModule({
